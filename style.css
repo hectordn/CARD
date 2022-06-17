@@ -1,0 +1,36 @@
+.container{
+    width: 200px;
+    height: 300px;
+    border-radius:20px;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foto img{
+    margin-top: 40px;
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+    opacity: 30%;
+    border: solid black;
+    padding: 5px;
+ }
+
+.container:hover{
+    background-color: blue;
+}
+
+.container:active{
+    background-color: cyan;
+    
+}
+h2{
+    text-align: center;
+}
